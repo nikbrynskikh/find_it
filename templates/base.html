@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<header>Header</header>
+<div class="main">
+    {% for job in jobs %}
+        <h4><a href="{{ job.href }}">{{ job.title }}</a> </h4>
+        <p>{{ job.descript }}</p>
+        <p>{{ job.company }}</p>
+        <hr><br>
+    {% endfor %}
+</div>
+<footer>Footer</footer>
+</body>
+</html>
