@@ -8,6 +8,7 @@ find_it/.gitignore
 find_it/__pycache__/
 find_it/secret1.py
 find_it/send_emails.py
+find_it/settings.py
 mydata.json
 scraping/__pycache__/
 scraping/migrations/0004_auto_20190303_1046.py
@@ -18,6 +19,6 @@ subscribers/migrations/0001_initial.py
 subscribers/migrations/__pycache__/
 .gitignore
 __pycache__/
-secret1.py
-send_emails.py
-settings.py
+
+
+
