@@ -16,8 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import *
+from subscribers.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home, name='home')
+    path('', index, name='index'),
+    path('home/', home, name='home'),
+    path('vacancy_list/', vacancy_list, name='vacancy_list'),
+    path('create/', SubscriberCreate.as_view(), name='create'),
+    path('login/', login_subscriber, name='login'),
+    path('update/', update_subscriber, name='update'),
 ]

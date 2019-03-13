@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/inspectionProfiles/
+.idea/sqldialects.xml
+.idea/workspace.xml
+find_it/.gitignore
+find_it/__pycache__/
+find_it/secret1.py
+find_it/send_emails.py
+mydata.json
+scraping/__pycache__/
+scraping/migrations/0004_auto_20190303_1046.py
+scraping/migrations/0005_auto_20190310_2240.py
+scraping/migrations/__pycache__/
+subscribers/__pycache__/
+subscribers/migrations/0001_initial.py
+subscribers/migrations/__pycache__/
+.gitignore
+__pycache__/
+secret1.py
+send_emails.py
+settings.py
